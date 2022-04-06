@@ -1,0 +1,24 @@
+! Title: chan-filter
+! Description: Filters for uBlock origin to block unwanted scripts 'n stuff on polish imageboards and related sites.
+! Expires: 1 days
+! Homepage: https://github.com/uwzw/chan-filter
+! Licence: https://github.com/uwzw/chan-filter/blob/main/LICENSE
+
+! karachan.org
+karachan.org###jesli-zablokujesz-tego-diva-ukraina-odniesie-zwyciestwo
+!#if cap_html_filtering
+karachan.org##^script:has-text(localStorage.xD)
+karachan.org##^script:has-text(_0x5215)
+!#endif
+!#if !cap_html_filtering
+karachan.org##+js(acis, Math.sin, localStorage.xD)
+karachan.org##+js(acis, Math.random, _0x5215)
+!#endif
+
+! wilchan.org
+||wilchan.org/js/smietnik.js
+||wilchan.org/js/openings.js
+
+! chanwiki.com
+chanwiki.com##body:after
+chanwiki.com##+js(aopw, HTMLImageElement.prototype.src) 
