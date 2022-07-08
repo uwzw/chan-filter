@@ -5,6 +5,7 @@
 ! Licence: https://github.com/uwzw/chan-filter/blob/main/LICENSE
 
 ! karachan.org
+||karachan.org/js/htmlshiv.js
 karachan.org##+js(set, navigator.webdriver, false)
 karachan.org###jesli-zablokujesz-tego-diva-ukraina-odniesie-zwyciestwo
 !#if cap_html_filtering
