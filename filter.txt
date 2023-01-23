@@ -12,7 +12,7 @@ karachan.org###jesli-zablokujesz-tego-diva-ukraina-odniesie-zwyciestwo
 karachan.org##^script:has-text(localStorage.xD)
 !#endif
 !#if !cap_html_filtering
-karachan.org##+js(acis, Math.sin, localStorage.xD)
+karachan.org##+js(acs, Math.sin, localStorage.xD)
 !#endif
 
 ! wilchan.org
