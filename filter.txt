@@ -8,6 +8,7 @@
 ||karachan.org/js/htmlshiv.js
 karachan.org##+js(set, navigator.webdriver, false)
 karachan.org###jesli-zablokujesz-tego-diva-ukraina-odniesie-zwyciestwo
+karachan.org###smok
 !#if cap_html_filtering
 karachan.org##^script:has-text(localStorage.xD)
 !#endif
