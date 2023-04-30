@@ -21,6 +21,4 @@ karachan.org##+js(acs, Math.sin, localStorage.xD)
 ||wilchan.org/js/openings.js
 
 ! chanwiki.com
-chanwiki.com##body:after
-chanwiki.com##body:style(animation: none !important)
 chanwiki.com##+js(aopw, HTMLImageElement.prototype.src) 
